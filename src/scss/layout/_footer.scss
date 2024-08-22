@@ -1,0 +1,25 @@
+.footer {
+    background-color: $negro;
+    padding: calc($separacion / 2) 0;
+
+    .contenedor-footer {
+        padding-top: calc($separacion / 2);
+    }
+
+    .navegacion {
+        visibility: visible;
+        opacity: 1;
+        height: auto;
+    }
+
+    .copyright {
+        color: $blanco;
+        text-align: center;
+    }
+
+    .logo-header {
+        max-width: 100%;
+        width: 22rem;
+        height: auto;
+    }
+}
